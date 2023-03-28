@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeeSangmin</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    
+</head>
+<body onload="realtimeClock()">
+    <div class="nav-wrapper">
+        <div class="logo">
+            <img src="https://icongr.am/jam/apple.svg?size=22&color=000000" alt="apple" style="margin-top: 3px;">
+        </div>
+        <ul class="nav">
+            <li><a href="#"><b>Finder</b></a></li>
+            <li><a href="#">파일</a></li>
+            <li><a href="#">편집</a></li>
+            <li><a href="#">보기</a></li>
+            <li><a href="#">이동</a></li>
+            <li><a href="#">윈도우</a></li>
+            <li><a href="#">도움말</a></li>
+        </ul>
+        <ul class="icon">
+            <img id="nav-icon" src="https://icongr.am/jam/message-alt-f.svg?size=20&color=000000" alt="" style="margin-top: 3px;">
+            <img id="nav-icon" src="https://icongr.am/feather/bell-off.svg?size=16&color=000000" alt="bell-off">
+            <img id="nav-icon" src="https://icongr.am/feather/monitor.svg?size=18&color=000000" alt="monitor">
+            <img id="nav-icon" src="https://icongr.am/feather/bluetooth.svg?size=16&color=000000" alt="bluetooth">
+            <p id= "battery">75%</p>
+            <img src="https://icongr.am/jam/battery-three-quarters-f.svg?size=23&color=000000" alt="battery" style="margin-right: 8px; margin-top: 1px;">
+            <img id="nav-icon" src="https://icongr.am/material/wifi.svg?size=18&color=000000" alt="wifi">
+            <img id="nav-icon" src="https://icongr.am/feather/search.svg?size=18&color=000000" alt="search">
+            <img id="nav-icon" src="https://icongr.am/feather/server.svg?size=18&color=000000" alt="server">
+            <p id="timerVar"></p>
+        </ul>
+    </div>
+
+    <div class="vscode">
+        <div class="vsNav1">
+            <p style="color: rgb(237,106,94); font-size: 15px; margin-right: 2px;">●</p>
+            <p style="color: rgb(244, 191, 79); font-size: 15px; margin: 0 2px;">●</p>
+            <p style="color: rgb(84, 174, 68); font-size: 15px; margin: 0 2px;">●</p>
+            <p style="color: rgba(255, 255, 255, 0.609); margin-left: 330px; font-size: 13px;">자기소개.html - LikeLion Work</p>
+            <img src="vscodetop.png" alt="" style="width: 100px; height: 20px; margin-left: auto;">
+        </div>
+        <div class="Area2">
+            <div class="vssideNav">
+                <img src="vscodeSide1.png" alt="" style="margin: 0 6px; width: 45px;">
+                <img src="vscodeSide2.png" alt="" style="margin: 145px 6px 0; width: 45px;">
+            </div>
+            <div class="Area3">
+                <div class="vsNav2">
+                    <div class="files">
+                        <p>자기소개.py</p>
+                        <p style="margin-left: 10px;">X</p>
+                    </div>
+                    <div class="filesN">
+                        <p>멋쟁이사자처럼.csv</p>
+                        <p style="margin-left: 10px;">X</p>
+                    </div>
+                    <div class="filesN">
+                        <p>MultiThread_Example.py</p>
+                        <p style="margin-left: 10px;">X</p>
+                    </div>
+                    <div class="filesN">
+                        <p>HelloWorld.java</p>
+                        <p style="margin-left: 10px;">X</p>
+                    </div>
+                </div>
+                <div class="Numbering">
+                    <p>&nbsp;1&nbsp;&nbsp;<font color=yellow>print</font><font color=orange>(</font><font color=green>"""</font></p>
+                    <p>&nbsp;2&nbsp;&nbsp;</p>
+                    <p>&nbsp;3&nbsp;&nbsp;<font color=green>이름: 이상민</font></p>
+                    <p>&nbsp;4&nbsp;&nbsp;<font color=green>나이: 20살</font></p>
+                    <p>&nbsp;5&nbsp;&nbsp;<font color=green>혈액형: A형</font></p>
+                    <p>&nbsp;6&nbsp;&nbsp;<font color=green>MBTI: INTJ</font></p>
+                    <p>&nbsp;7&nbsp;&nbsp;</p>
+                    <p>&nbsp;8&nbsp;&nbsp;<font color=green>학번: 23학번</font></p>
+                    <p>&nbsp;9&nbsp;&nbsp;<font color=green>학과(학부) 및 세부전공: 컴퓨터학부 플랫폼 소프트웨어 & 데이터과학 전공 (구 심화컴퓨터 전공)</font></p>
+                </div>
+                <div class="terminal">
+                    <div class="terminal-nav">
+                        <p>PROBLEMS</p>
+                        <p>OUTPUT</p>
+                        <p>DEBUG CONSOLE</p>
+                        <p style="color: rgb(209, 209, 209); text-decoration: underline;">TERMINAL</p>
+                        <img src="terminalicon.png" alt="" style="margin-left: auto; height: 25px">
+                    </div>
+                    <div class="terminal-result">
+                        <textarea rows="24" cols="300" style="background-color:rgb(30, 30, 30); color:white; font-size: 13px;" readonly>
+(py001) isangmin@isangmin-ui-MacBookPro Programming Doc % python -u "/Users/isangmin/Desktop/Programming Doc/Python/Main.py"
+
+이름: 이상민
+나이: 20살
+혈액형: A형
+MBTI: INTJ
+
+학번: 23학번
+학과(학부) 및 세부전공: 컴퓨터학부 플랫폼 소프트웨어 & 데이터과학 전공 (구 심화컴퓨터 전공)
+학교 등교하는 법: 통학 (937타고 약 한 시간)
+
+취미: 운동, 코딩
+
+좋아하는 음식: 먹는건 다 좋아합니다.
+싫어하는 음식: 음식이 아닌 것들
+
+
+(py001) isangmin@isangmin-ui-MacBookPro Programming Doc %
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="bottomBar">
+        <div class="bottom_icon">
+            <img src="Finder_icon.png" alt="">
+            <img src="LaunchPad_icon.png" alt="">
+            <img src="safari_icon.png" alt="" style="margin: 0 4px; width: 55px; height: 55px; object-fit: cover;">
+            <img src="VScode_icon.png" alt="">
+            <img src="imessage_icon.png" alt="" style="margin: 0 5px; width: 50px; height: 50px; object-fit: cover;">
+            <img src="note_icon.png" alt="">
+            <img src="appstore_icon.png" alt="" style="margin: 0 5px; width: 50px; height: 50px; object-fit: cover;">
+            <img src="setting_icon.webp" alt="" style="margin: 0 5px; width: 57px; height: 57px; object-fit: cover;">
+            <img src="terminal_icon.png" alt="">
+            <div class="updown"></div>
+            <img src="goodnote_icon.png" alt="">
+            <img src="miribogi_icon.png" alt="" style="margin: 0 5px; width: 53px; height: 53px; object-fit: cover;">
+            <div class="updown"></div>
+            <img src="trash_icon.png" alt="" style="margin: 0 5px; width: 53px; height: 53px; object-fit: cover;">
+        </div>
+    </div>
+</body>
+</html>

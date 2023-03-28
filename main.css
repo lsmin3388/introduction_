@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap');
+body, table, div, p{ font-family: 'Nanum Gothic'; }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("background_img.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsla(0, 0%, 78%, 0.75);
+    padding: 4px 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 0 12px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav li a:link {
+    color: black
+}
+
+.nav li a:visited {
+    color: black
+}
+
+.nav li a:hover {
+    color: black
+}
+
+.icon {
+    margin-left: auto;
+}
+
+#timerVar {
+    background-color: transparent;
+    color: black;
+    font-size: 12.5px;
+    margin: 4px 8px 0px;
+}
+
+#battery {
+    font-size: 11px;
+    margin: 7px 0px 0px 8px;
+    color: black;
+}
+
+#nav-icon {
+    margin: 0px 8px;
+}
+
+.bottomBar {
+    display: flex;
+    justify-content: space-between flex-end;
+    align-items: center;
+    background-color: hwb(0 78% 22% / 0.75);
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px black;
+    padding: 4px 6px;
+    margin: 10px 100px;
+    width: 55%;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+    right: 0;
+}
+
+.bottom_icon {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.bottom_icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.updown {
+    border: 0.1px solid rgba(0, 0, 0, 0.308);
+    width: 0.1px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+/*
+
+.bottom-appC {
+    margin: 10px auto;
+    
+}
+.bottom-apps {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: hwb(0 78% 22% / 0.75);
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px black;
+
+    padding: 4px 6px;
+    margin: 10px auto;
+    
+    position: fixed;
+    bottom: 0;
+
+    clear:both;
+    float:left;
+}
+*/
+
+.vscode {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(30, 30, 30);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px black;
+    margin: 30px;
+}
+
+.vsNav1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    padding: 4px 15px;
+}
+.Area2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Area3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.vssideNav {
+    width: 58px;
+    height: 575px;
+    background-color: rgb(50, 50, 50);
+    overflow: hidden;
+    margin: 0px;
+}
+
+.vsNav2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    width: 942px;
+    padding: 0px 15px;
+
+}
+.files {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    padding: 9px 15px;
+    margin: 0 2px 0 -15px
+}
+.filesN {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    padding: 9px 15px;
+    margin: 0 1px
+}
+
+.filesN p{
+    margin: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.files p{
+    color: white; 
+    font-size: 13px; 
+    margin: 5px;
+    font-weight: bold;
+}
+
+.Numbering {
+    margin-right: auto;
+    color: rgb(103, 103, 103);
+}
+
+.terminal {
+    width: 940px;
+    height: 358px;
+    background-color: rgb(30, 30, 30);
+    overflow: hidden;
+    margin: -5px 0px;
+    border-top: 1px solid rgb(54, 54, 54);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.terminal-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.terminal-nav p {
+    margin: 10px 15px;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+.terminal-result textarea{
+    background-color: black;
+}
